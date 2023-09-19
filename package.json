@@ -1,0 +1,25 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.5.0",
+        "laravel-vite-plugin": "^0.8.0",
+        "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "@inertiajs/vue3": "^1.0.11",
+        "@vitejs/plugin-vue": "^4.3.4",
+        "feather-icons": "4",
+        "nprogress": "^0.2.0",
+        "vue": "3",
+        "vue-feather": "2",
+        "vue-toast-notification": "^3.0",
+        "ziggy": "^2.4.0",
+        "ziggy-js": "^1.6.2",
+        "ziggy-vue": "^0.2.0"
+    }
+}

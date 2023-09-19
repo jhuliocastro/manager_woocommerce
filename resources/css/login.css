@@ -1,0 +1,38 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css";
+
+html {
+    background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#fields {
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    background-color: white;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 90px;
+    width: 370px;
+    height: 550px;
+    padding: 15px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    -webkit-box-shadow: 2px -2px 15px -4px rgba(122,122,122,1);
+    -moz-box-shadow: 2px -2px 15px -4px rgba(122,122,122,1);
+    box-shadow: 2px -2px 15px -4px rgba(122,122,122,1);
+}
+
+.checkbox {
+    margin-bottom: 8px;
+}
+
+.icon{
+    width: 10px;
+}
